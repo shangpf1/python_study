@@ -43,8 +43,6 @@ print(flag(3,7))
 def num():
     score1=int(input("输入分数1："))
     score2=int(input("输入分数2："))
-
-
     if (score1>90 and score2>=70) or (score1>=80 and score2>=80):
         print("很好，给你独孤九剑剑谱。")
     else:
