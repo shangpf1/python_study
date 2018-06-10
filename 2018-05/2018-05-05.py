@@ -1,9 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
-
 driver = webdriver.Chrome()
 
+# 打开CNode 社区网站
 driver.get('http://118.31.19.120:3000/signin')
 
 # 输入用户名、密码
